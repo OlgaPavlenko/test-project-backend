@@ -11,6 +11,7 @@ export class UserDto {
   @IsNotEmpty()
   public name: string;
 
+  @IsNotEmpty()
   public phone: string;
 
   @IsNotEmpty()
