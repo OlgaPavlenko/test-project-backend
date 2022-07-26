@@ -6,7 +6,8 @@ export const config: TypeOrmModuleOptions = {
   password: 'root',
   port: 5432,
   host: 'localhost',
-  database: 'codempire_db',
+  // database: 'codempire_db',
+  database: 'test_db',
   synchronize: true,
   entities: ['dist/**/*.entity{.ts,.js}'],
 };
